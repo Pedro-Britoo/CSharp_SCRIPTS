@@ -3,7 +3,7 @@ using UnityEngine;
 public class ParedeTrigger : MonoBehaviour
 {
     public LinhaAtivadora linhaAlvo;
-    public bool ativaLinha; // Se verdadeiro ativa, se falso desativa
+    public bool ativaLinha; // boll de verdadeiro ou falso carai
 
     private void OnTriggerEnter(Collider other)
     {

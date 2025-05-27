@@ -17,7 +17,7 @@ public class Triggerativeparede : MonoBehaviour
 
     private IEnumerator Desativaabarreara()
     {
-        yield return new WaitForSeconds(tempoestorado);
+        yield return new WaitForSeconds(tempoestorado);     //obs: todo o codigo com trigger de parede tem a memsa categoria ( ativa com a tag PLayer, cuidado com isso, se o seu objeto nao tiver player o bagulho nao vai funcionar
 
         foreach (GameObject barreira in barrera)
         {
